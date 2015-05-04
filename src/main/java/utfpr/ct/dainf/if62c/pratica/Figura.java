@@ -9,7 +9,8 @@ package utfpr.ct.dainf.if62c.pratica;
  *
  * @author a1614193
  */
-public abstract interface FiguraComEixos extends Figura {
-    double getEixoMaior();
-    double getEixoMenor();
+public interface Figura {
+    public String getNome();
+    public double getPerimetro();
+    public double getArea();
 }
